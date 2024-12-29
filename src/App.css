@@ -46,7 +46,7 @@ body{
    cursor: pointer;
 }
 .dot:active{
-   background-color: red;
+   background-color: rgb(248, 223, 82);
    opacity: 0.5;
    transition: 0.1s;
 }
