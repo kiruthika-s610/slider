@@ -1,0 +1,52 @@
+*{
+   background-color: #a7adb3;
+}
+body{
+   position: relative;
+   justify-self: center;
+   width: 100%;
+}
+.container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.left{
+   position: absolute;
+   top: 50%;
+   left: 5%;
+   font-size: 50px;
+   color: rgb(255, 102, 0);
+   cursor: pointer;
+}
+.right{
+   position: absolute;
+   top: 50%;
+   right: 5%;
+   font-size: 50px;
+   color: rgb(255, 102, 0);
+   cursor: pointer;
+
+}
+.img{
+   margin: center;
+   height: 500px;
+}
+.dotcontainer{
+   display: flex;
+   justify-content: center;
+   gap: 15px;
+   margin-top: 10px;
+}
+.dot{
+   background-color: rgba(55, 55, 97, 0.719);
+   width: 15px;
+   height: 15px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.dot:active{
+   background-color: red;
+   opacity: 0.5;
+   transition: 0.1s;
+}
